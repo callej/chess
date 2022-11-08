@@ -2,8 +2,12 @@
 
 #define SHOW_COORDINATES 1
 
-#define BG_WHITE "\x1b[30;47m"
-#define BG_BLACK "\x1b[30;100m"
+// #define BG_WHITE "\x1b[30;47m"
+// #define BG_BLACK "\x1b[30;100m"
+// #define BG_WHITE "\x1b[48;2;255;215;0m"
+// #define BG_WHITE "\x1b[48;2;200;200;200m"
+#define BG_WHITE "\x1b[48;2;212;175;55m"
+#define BG_BLACK "\x1b[48;2;75;75;75m"
 #define NORMAL "\x1b[m"
 
 #define HEIGHT 5
